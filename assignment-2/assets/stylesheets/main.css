@@ -1,0 +1,256 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+  */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+
+/*
+=============================================================
+Header
+=============================================================
+*/
+
+header,
+footer {
+  background-color: #1E2D3B;
+  height: 80px;  
+ }
+
+/*
+=============================================================
+Links
+=============================================================
+*/
+
+a {
+  color: #648880;
+  text-decoration: none;
+}
+
+.primary-header a,
+.primary-footer a {
+  color: #fff;
+}
+
+.primary-header a:hover,
+.primary-footer a:hover {
+  color: #648880;
+}
+
+/*
+=============================================================
+Nav
+=============================================================
+*/
+
+.primary-nav {
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing:  .5px;
+  text-transform: uppercase;
+}
+
+/*
+=============================================================
+Navigation
+=============================================================
+*/
+.nav {
+  text-align: center;
+  padding-top: 15px;
+}
+
+.nav li {
+  display: inline-block;
+  margin: 14px 32px;
+  vertical-align: top;
+}
+
+.nav li:last-child {
+  margin-right: 0;
+}
+
+
+/*
+=============================================================
+Home
+=============================================================
+*/
+.logo {
+  color:#EDCD1F ;
+  text-align: center;
+  padding: 80px 0 40px 0;
+  font-size: 48px;
+  letter-spacing:  .5px;
+  text-transform: uppercase;
+}
+
+.container-1 {
+  height: 400px;
+  background-color:#4A7DA9 ;
+}
+
+.container-1 p {
+  text-align: center;
+  font-size: 38px;
+  font-weight: 500;
+  color: white;
+  letter-spacing:  .5px;
+  line-height: 44px;
+  text-transform: uppercase;
+}
+
+section {
+  margin: 15px;
+}
+.col-1-2 {
+  width: 45%;
+  display: inline-block;
+  vertical-align: top;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+article p {
+  text-align: center;
+  margin: 3px;
+  padding: 15px 112px;
+}
+
+.para {
+  text-align: center;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+address {
+  text-align: center;
+  margin: 0 42%;
+  padding-bottom: 15px;
+  
+}
+  
+/*
+=============================================================
+Headings
+=============================================================
+*/
+
+h2 {
+  text-align: center;
+  color:#1E2D3B;
+  font-size: 40px;
+  font-weight: bold;
+  padding: 30px 0 22px 0;
+  text-transform: uppercase;
+  
+}
+
+article{
+  display: block;
+  margin: 20px;
+}
+
+article img {
+  text-align: center;
+  margin: 0 auto;
+  width: 400px;
+  height: 300px;
+}
+
+
+.container-2 img {
+  border-radius: 5px;
+  display: block;
+  margin-bottom: 22px;
+  max-width: 100%;
+}
+
+h3 {
+  text-align: center;
+  color:#1E2D3B;
+  font-size: 40px;
+  padding: 5px 0 15px 0;
+}
+
+/*
+=============================================================
+Button
+=============================================================
+*/
+button {
+  display: table;
+  margin: 0 auto;
+  border: none;
+  display:block;
+  background-color: none;
+}
+
+button a{
+  font-size: 15px;
+  font-weight: 600;
+  padding: 5px;
+  color: #EDCD1F;
+  background-color:#1E2D3B;
+  text-decoration: none;
+
+}
+
+/*
+=============================================================
+About Us
+=============================================================
+*/
+.about-image {
+  display: block;
+  margin: 0 auto;
+  width: 526px;
+  height: 275px;
+  padding: 15px 0 25px;
+
+}
